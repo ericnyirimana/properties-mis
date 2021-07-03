@@ -9,7 +9,7 @@ class PropertyType extends Model
 {
     protected $fillable = ['id', 'title', 'description'];
 
-    public function properties()
+    public function property()
     {
 
         return $this->hasMany('App\Models\Property');
