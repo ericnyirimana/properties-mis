@@ -7,5 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class PropertyType extends Model
 {
-    use HasFactory;
+    protected $fillable = ['id', 'title', 'description'];
+
+    public function properties()
+    {
+
+        return $this->hasMany('App\Models\Property');
+
+    }
+
 }

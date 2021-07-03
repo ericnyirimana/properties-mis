@@ -19,7 +19,7 @@ class CreatePropertiesTable extends Migration
             $table->string('county');
             $table->string('country');
             $table->string('town');
-            $table->string('description');
+            $table->longText('description');
             $table->string('address');
             $table->string('image_full');
             $table->string('image_thumbnail');

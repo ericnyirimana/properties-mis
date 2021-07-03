@@ -27,7 +27,7 @@ class PropertyService{
             ]);
         } catch(\Throwable $e){
             response()->json(['error' => 'Oops, something went wrong'], 400);
-            Log::warning('An error has occurred when getting properties per page : {' . $e->getMessage() . '})');
+            Log::error('An error has occurred when getting properties per page : {' . $e->getMessage() . '})');
         }
         return $response;
     }
