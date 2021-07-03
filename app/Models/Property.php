@@ -9,7 +9,7 @@ class Property extends Model
 {
     protected $fillable = ['uuid', 'property_type_id', 'county', 'country', 'town', 'description', 'address', 'image_full', 'image_thumbnail', 'latitude', 'longitude', 'num_bedrooms', 'num_bathrooms', 'price', 'type'];
 
-    public function properties()
+    public function property_types()
     {
 
         return $this->belongsTo('App\Models\PropertyType', 'property_type_id');
