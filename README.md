@@ -33,6 +33,7 @@ Property MIS is a simple APP that does manipulate properties information and syn
 * Work more on the UI/UX.
 * Add a lazy loader or pagination on the list view properties.
 * Create edit and create viewsAdd a javascript library like JQuery which would make easy requests to the back-end without reloading pages.
+* Create reusable component for the views.
 * Request an API that would return the total properties record, so when syncing properties we won't use anymore a static number.
 * Add unit test with the use of PHP unit.
 
