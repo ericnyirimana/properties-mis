@@ -8,6 +8,7 @@ Property MIS is a simple APP that does manipulate properties information and syn
 * Install the dependencies - run ```composer install```.
 * Create a database in your local environment.
 * Check - ```.env.example``` file and set your environment variables in ```.env``` file.
+* Run migration - ```php artisan migrate```.
 
 ## Run the application with the below command
 
